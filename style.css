@@ -115,3 +115,33 @@
     padding: 15px;
 }
 
+@media (max-width: 480px) {
+    .digitalClock {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+    }
+
+    .clock {
+        padding: 10px;
+    }
+
+    .count {
+        font-size: 1.5rem;
+    }
+
+    .caption {
+        font-size: 0.8rem;
+    }
+
+    .clockBox {
+        font-size: 1.5rem;
+    }
+
+    .clockBox .clockcaption {
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
